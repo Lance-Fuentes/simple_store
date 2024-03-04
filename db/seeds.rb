@@ -8,7 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Product.delete_all
+Product.destroy_all
 
 676.times do
    Product.create(
