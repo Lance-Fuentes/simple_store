@@ -1,5 +1,5 @@
 Model: Product (maps to db table products) (db always plural, model always singular)
-    id (integer - auto incrementing PK)
+    id (integer - auto incrementing PK) --rails proper generates automatically -same with date created, updated
     title (string)
     description (text)
     price (decimal)
